@@ -8,6 +8,8 @@ This skill changes the language and keeps the content. Plain words. Short, liter
 
 ## Before and after
 
+![Before and after: the same Claude answer, with idioms highlighted and with the skill](assets/before-after.png)
+
 The same question: `git push` was rejected. What happened?
 
 **Default Claude**
