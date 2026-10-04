@@ -1,0 +1,11 @@
+{
+  "name": "english-is-my-second-language",
+  "version": "1.0.0",
+  "description": "Makes Claude write English that a non-native reader can follow on the first read: plain words, short literal sentences, no idioms, technical terms kept in English and explained once.",
+  "author": {
+    "name": "Basma Abouzied",
+    "url": "https://github.com/BasmaAbouzied0"
+  },
+  "license": "MIT",
+  "keywords": ["esl", "plain-english", "non-native-english", "accessibility", "claude-code"]
+}

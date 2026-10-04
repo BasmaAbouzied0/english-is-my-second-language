@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear|compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node -e \"const fs=require('fs'),p=require('path'),r=process.env.CLAUDE_PLUGIN_ROOT;if(r){const s=fs.readFileSync(p.join(r,'skills','english-is-my-second-language','SKILL.md'),'utf8');process.stdout.write('ESL MODE ACTIVE (always on). Say \\'stop esl mode\\' to turn it off.\\n\\n'+s.slice(s.indexOf('# english-is-my-second-language')))}\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

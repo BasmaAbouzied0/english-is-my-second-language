@@ -1,0 +1,16 @@
+{
+  "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
+  "name": "english-is-my-second-language",
+  "description": "Plain, literal English for non-native readers. No idioms, short sentences, technical terms explained once.",
+  "owner": {
+    "name": "Basma Abouzied"
+  },
+  "plugins": [
+    {
+      "name": "english-is-my-second-language",
+      "description": "Makes Claude write English that a non-native reader can follow on the first read.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
